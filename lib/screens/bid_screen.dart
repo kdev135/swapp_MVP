@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:swapp2/components/constants.dart';
-import 'package:swapp2/components/my_products_list.dart';
 import 'package:swapp2/components/styles.dart';
 import 'package:swapp2/controllers/my_products_controller.dart';
 import 'package:swapp2/models/bid_item_card.dart';

@@ -1,6 +1,6 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 
-// Template for a product for the catalog screen.
+// Template for an item/product
 
 class Product {
   late String image ;

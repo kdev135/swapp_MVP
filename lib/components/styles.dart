@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
+// UI styles for the app
 TextStyle titleStyle =
     GoogleFonts.montserrat(fontSize: 20, fontWeight: FontWeight.w600);
 
@@ -13,7 +14,7 @@ TextStyle productlabelStyle =
 const InputDecoration inputDecoration = InputDecoration(
     contentPadding: EdgeInsets.symmetric(horizontal: 20, vertical: 2),
     hintText: '',
-    // label: Text(''),
+
 
     border: OutlineInputBorder(
       borderRadius: BorderRadius.all(

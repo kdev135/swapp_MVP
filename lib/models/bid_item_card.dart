@@ -5,7 +5,7 @@ import 'package:swapp2/components/styles.dart';
 import 'package:swapp2/controllers/my_products_controller.dart';
 
 class BidItemCard extends StatefulWidget {
-  // static List myProducts = [];
+  
 
   final int cashValue;
 
@@ -16,7 +16,7 @@ class BidItemCard extends StatefulWidget {
   final String name;
   final String id;
 
-  // ignore: use_key_in_widget_constructors
+
   const BidItemCard(
       {required this.name,
       required this.cashValue,
@@ -29,9 +29,6 @@ class BidItemCard extends StatefulWidget {
 }
 
 class BidItemCardState extends State<BidItemCard> {
-  // List of products form the database
-  // List<Widget> myItemWidget = [];
-  // List of the widgets built i.e product cards
 
   var selectedColor = Colors.lightBlue;
   var cardColor = Colors.grey;
@@ -40,8 +37,6 @@ class BidItemCardState extends State<BidItemCard> {
   double cardElevation = 1;
   static int totalValue = 0;
   
-
-  // void fetchState(bool state) {
   @override
   Widget build(BuildContext context) {
     return GestureDetector(

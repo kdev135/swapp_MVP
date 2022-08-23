@@ -1,4 +1,4 @@
-// ignore_for_file: file_names, prefer_const_constructors
+
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
@@ -42,9 +42,9 @@ class CatalogScreen extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             UserAccountsDrawerHeader(
-              accountName: Text('Some Name'),
+              accountName: const Text('Some Name'),
               accountEmail: Text(_auth.currentUser!.email.toString()),
-              currentAccountPicture: CircleAvatar(
+              currentAccountPicture: const CircleAvatar(
                 maxRadius: 30.0,
                 child: Icon(
                   Icons.person,
@@ -85,7 +85,7 @@ class CatalogScreen extends StatelessWidget {
                   Container(
                     // Container as parent of the textField
                     padding: kContentPadding,
-                    child: TextField(
+                    child: const TextField(
                       decoration: InputDecoration(
                         prefixIcon: Icon(Icons.search),
                         hintText: 'eg. GTA V, Samsung galaxy s9, paintings',
@@ -139,7 +139,7 @@ class CatalogScreen extends StatelessWidget {
                               return ProductCard(index: index);
                             },
                             staggeredTileBuilder: (index) {
-                              return StaggeredTile.fit(1);
+                              return const StaggeredTile.fit(1);
                             },
                           ),
                         )

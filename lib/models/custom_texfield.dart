@@ -9,9 +9,9 @@ class CustomTextField extends StatelessWidget {
   final Function onChanged;
   final int maxLines;
 
- TextInputType keyboardType;
+ final TextInputType keyboardType;
 
- CustomTextField(
+ const CustomTextField(
       {Key? key,
       this.keyboardType =TextInputType.text ,
       required this.label,

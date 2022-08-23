@@ -25,8 +25,8 @@ class _UploadScreenState extends State<UploadScreen> {
   String? image;
   String? info;
   String? imagePath;
-  // ignore: prefer_typing_uninitialized_variables
-  var path;
+  
+ String? path;
   // late ImageSource method;
 
   @override
@@ -52,7 +52,7 @@ class _UploadScreenState extends State<UploadScreen> {
                       fallbackWidth: 150,
                     )
                   : Image.file(
-                      File(path),
+                      File(path!),
                       height: 250,
                     ),
               Row(children: [

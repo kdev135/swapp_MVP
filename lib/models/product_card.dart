@@ -4,7 +4,7 @@ import 'package:swapp2/controllers/product_controller.dart';
 import 'package:get/get.dart';
 import 'package:swapp2/screens/product_info_screen.dart';
 
-// Puts the documents received into Widget.
+// Model for the card widget of each product to use in catalog
 
 class ProductCard extends StatelessWidget {
   final ProductController productController = Get.find();

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+// options for the drawer menu
 class DrawerItem extends StatelessWidget {
   final IconData icon;
 

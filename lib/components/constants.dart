@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-
+// Logo for the appbar
 final swappLogo = SvgPicture.asset(
   'images/swappLogo.svg',
   width: 40,

@@ -3,6 +3,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:swapp2/models/bid_item_card.dart';
 
+//create a list of all the items
 class MyProductsList extends StatelessWidget {
   const MyProductsList({Key? key}) : super(key: key);
   static List<Widget> productList = [];
@@ -16,7 +17,7 @@ class MyProductsList extends StatelessWidget {
         .then(
       (value) {
         for (var element in value.docs) {
-          // myProducts.add(element.data());
+          
           theList.add(BidItemCard(
               name: element.data()['name'],
               cashValue: element.data()['cashValue'],
@@ -32,7 +33,7 @@ class MyProductsList extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // print(productList);
+  
     return Column(
       children: productList,
     );
