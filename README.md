@@ -1,5 +1,5 @@
 # swapp_MVP
-- This is a minimum viable product (M.V.P) of Swapp, an app that allows for the exchange of unneeded items for other items or cash. 
+- This is a minimum viable product (M.V.P) of Swapp, an app that allows for the exchange of unneeded items for other items or cash. The project has been delivered with Flutter as the primary framework.
 
 ## UI design
 The user interface for part of the app is available here: https://dribbble.com/shots/17817188-Swapp-e-commerce-app
