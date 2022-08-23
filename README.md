@@ -7,11 +7,12 @@ The user interface for part of the app is available here: https://dribbble.com/s
 ## The basics
 - The owner of a product uploads the item with the relevant details and awaits to receive bids from interested parties.
 A logged in user of the app can view available products from the catalog screen.
-<img src=" ./screenshots/catalog.jpg " width =400>
+<img src=" ./screenshots/catalog.jpg " width =300 height= 600>
 
 - A party cannot place bid on an item that was uploaded from their account. If one attempts to place a bid on their own item,they will be denied progress to the bidding screen and notified via a snackbar at the bottom of the screen. This behaviour is shown in the screenshot below.
- <img src=" ./screenshots/own_guitar.jpg " width =400>
+ <img src=" ./screenshots/own_guitar.jpg " width =300 height=600>
 
--If the product belongs to a different account, the user will be directed to the bid screen where they can select their preffered bid method and finally conclude the bid. 
-<img src=" ./screenshots/bid_screen.jpg " width =400>
+-If the product belongs to a different account, the user will be directed to the bid screen where they can select their preffered bid method and finally conclude the bid.
+
+<img src=" ./screenshots/bid_screen.jpg " width =300, height = 600>
 
